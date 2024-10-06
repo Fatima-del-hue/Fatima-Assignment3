@@ -1,0 +1,19 @@
+{
+  "name": "fatima_bashir_assignment3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "runserver": "lite-server --baseDir=\"public\"",
+    "runsass": "sass --watch src/scss:public/assets/css",
+    "start": "concurrently \"npm run runserver\" \"npm run runsass\""
+  },
+  "author": "Fatima Bashir",
+  "license": "private",
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "lite-server": "^2.6.1",
+    "sass": "^1.79.4"
+  }
+}
